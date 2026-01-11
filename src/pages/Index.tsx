@@ -1,13 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Layout from '@/components/layout/Layout';
+import HeroSection from '@/components/home/HeroSection';
+import CategoryIcons from '@/components/home/CategoryIcons';
+import FlashSale from '@/components/home/FlashSale';
+import TodayForYou from '@/components/home/TodayForYou';
+import BestSellingStore from '@/components/home/BestSellingStore';
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <Layout>
+      <HeroSection />
+      <CategoryIcons />
+      <FlashSale />
+      <TodayForYou />
+      <BestSellingStore />
+    </Layout>
   );
 };
 
