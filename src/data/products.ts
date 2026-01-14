@@ -36,7 +36,7 @@ export const categories: Category[] = [
   { id: 'bag', name: 'Bag', icon: '👜' },
   { id: 'shoes', name: 'Shoes', icon: '👟' },
   { id: 'watches', name: 'Watches', icon: '⌚' },
-  { id: 'cap', name: 'Cap', icon: '🧢' },
+  // { id: 'cap', name: 'Cap', icon: '🧢' },
 ];
 
 export const flashSaleProducts: Product[] = [
