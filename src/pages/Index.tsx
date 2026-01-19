@@ -11,7 +11,7 @@ const Index = () => {
       <HeroSection />
       <CategoryIcons />
       <FlashSale />
-      {/* <TodayForYou /> */}
+      <TodayForYou />
       <BestSellingStore />
     </Layout>
   );
